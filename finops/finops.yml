@@ -1,0 +1,16 @@
+finOps:
+  - name: Metacritic API FinOps
+    description: >-
+      The Metacritic API is available only through a paid Fabric Origin subscription. Pricing is
+      not publicly published and must be negotiated directly with Fabric Origin sales. There is no
+      self-serve free tier, trial access, or publicly listed pricing. Cost is expected to scale
+      with data volume and the scope of the Fabric Origin solution purchased. Budgeting should
+      account for a commercial licensing agreement with Fabric Data / Fabric Origin.
+    pricingModel: commercial-negotiated
+    publicPricing: false
+    freeTier: false
+    trialAvailable: false
+    contact: https://www.fabricdata.com/contact
+    notes: >-
+      Metacritic data is bundled within Fabric Origin entertainment data solutions. Developers
+      should contact sales to obtain a quote based on intended use case and data volume.

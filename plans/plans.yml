@@ -1,0 +1,18 @@
+plans:
+  - name: Fabric Origin Paid Subscription
+    description: >-
+      Access to the Metacritic API requires a paid subscription to one of Fabric Origin's core data
+      solutions. Metacritic data is explicitly excluded from free trial plans. Each developer account
+      must be individually approved before API access is granted. Pricing is not publicly listed and
+      is provided by Fabric Origin sales on request.
+    url: https://developer.origin.fabricdata.com/
+    features:
+      - Metascores for movies and TV shows
+      - User scores and counts
+      - Individual critic reviews with quotes, dates, and publication details
+      - Movie and TV show endpoints using Fabric Origin IDs
+      - Responses in JSON, XML, CSV, and HTML
+    access: commercial
+    trial: false
+    approval: required
+    contact: https://www.fabricdata.com/contact

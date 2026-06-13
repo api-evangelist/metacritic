@@ -1,0 +1,11 @@
+rateLimits:
+  - name: Standard Rate Limiting
+    description: >-
+      The Metacritic API enforces rate limits but does not publicly document specific thresholds.
+      A 429 Too Many Requests HTTP response is returned when the rate limit is exceeded. Exact
+      request-per-minute or request-per-day quotas are determined by the subscriber's Fabric Origin
+      plan and are communicated during the onboarding and approval process.
+    httpStatusOnExceeded: 429
+    documented: false
+    notes: Contact Fabric Origin sales for plan-specific rate limit details.
+    url: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic

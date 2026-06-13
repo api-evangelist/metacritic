@@ -1,0 +1,77 @@
+aid: metacritic
+name: Metacritic
+description: >-
+  Metacritic is a review aggregator that collects critic and user scores for games, movies, TV shows,
+  and music, computing a weighted Metascore for each title. The Metacritic API (provided via Fabric Origin /
+  IVA / Gracenote) gives programmatic access to Metascores, user scores, individual critic reviews,
+  publication details, and entertainment rankings for movies and television. Unofficial community-built
+  wrappers also expose game, movie, and TV data from Metacritic's public backend.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Entertainment
+  - Reviews
+  - Metascore
+  - Games
+  - Movies
+  - Television
+  - Music
+  - Review Aggregator
+  - Critic Scores
+  - User Scores
+url: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+apis:
+  - aid: metacritic:metacritic-api
+    name: Metacritic API (Fabric Origin)
+    description: >-
+      The official Metacritic API, delivered through Fabric Origin (formerly IVA / Gracenote), provides
+      structured access to Metascores, user scores, and individual critic reviews for movies and TV shows.
+      Requests are authenticated with a subscription key passed via the Ocp-Apim-Subscription-Key header
+      or as a query parameter. Access requires a paid Fabric Origin subscription — data is not available
+      on free trial plans and each developer account must be approved before use.
+    humanURL: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic
+    baseURL: https://api.origin.fabricdata.com/api/Metacritic
+    tags:
+      - Reviews
+      - Metascore
+      - Movies
+      - Television
+      - Critic Scores
+      - User Scores
+    properties:
+      - type: Documentation
+        url: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic
+      - type: GettingStarted
+        url: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs
+      - type: Authentication
+        url: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/plans/plans.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/rate-limits/rate-limits.yml
+      - type: FinOps
+        url: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/finops/finops.yml
+    contact:
+      - FN: Fabric Origin Sales
+        url: https://www.fabricdata.com/contact
+common:
+  - type: Website
+    url: https://www.metacritic.com/
+  - type: Portal
+    url: https://developer.origin.fabricdata.com/
+  - type: Documentation
+    url: https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic
+  - type: TermsOfService
+    url: https://www.metacritic.com/about/terms-of-use
+  - type: PrivacyPolicy
+    url: https://www.metacritic.com/about/privacy-policy
+  - type: Support
+    url: https://metacritichelp.zendesk.com/hc/en-us
+  - type: Contact
+    url: https://www.fabricdata.com/contact
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
