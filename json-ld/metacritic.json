@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Metacritic",
+  "url": "https://www.metacritic.com/",
+  "description": "Metacritic is a review aggregator that collects critic and user scores for games, movies, TV shows, and music, computing a weighted Metascore for each title.",
+  "sameAs": [
+    "https://www.metacritic.com/",
+    "https://developer.origin.fabricdata.com/"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.fabricdata.com/contact",
+    "contactType": "sales"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Metacritic API (Fabric Origin)",
+    "description": "The official Metacritic API, delivered through Fabric Origin (formerly IVA / Gracenote), provides structured access to Metascores, user scores, and individual critic reviews for movies and TV shows.",
+    "url": "https://developer.origin.fabricdata.com/origin/apis-all/metacritic-api-docs/metacritic"
+  },
+  "provider": {
+    "@type": "Organization",
+    "name": "Fabric Origin",
+    "url": "https://www.fabricdata.com/"
+  },
+  "termsOfService": "https://www.metacritic.com/about/terms-of-use",
+  "privacyPolicy": "https://www.metacritic.com/about/privacy-policy"
+}
