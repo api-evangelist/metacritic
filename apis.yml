@@ -58,6 +58,8 @@ apis:
       - FN: Fabric Origin Sales
         url: https://www.fabricdata.com/contact
 common:
+  - type: DomainSecurity
+    url: security/metacritic-domain-security.yml
   - type: Website
     url: https://www.metacritic.com/
   - type: Portal
