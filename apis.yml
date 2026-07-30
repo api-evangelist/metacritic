@@ -7,7 +7,19 @@ description: >-
   publication details, and entertainment rankings for movies and television. Unofficial community-built
   wrappers also expose game, movie, and TV data from Metacritic's public backend.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: paid
+  onboarding: unknown
+  trial: true
+  try_now: false
+  public: false
+  label: Paid (free trial)
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metacritic.png
 tags:
   - Entertainment
   - Reviews
