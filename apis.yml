@@ -7,6 +7,17 @@ description: >-
   publication details, and entertainment rankings for movies and television. Unofficial community-built
   wrappers also expose game, movie, and TV data from Metacritic's public backend.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
