@@ -44,7 +44,7 @@ tags:
   - User Scores
 url: https://raw.githubusercontent.com/api-evangelist/metacritic/refs/heads/main/apis.yml
 created: '2026-06-13'
-modified: '2026-06-13'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: metacritic:metacritic-api
@@ -81,6 +81,8 @@ apis:
       - FN: Fabric Origin Sales
         url: https://www.fabricdata.com/contact
 common:
+  - url: https://www.metacritic.com/news/
+    type: Blog
   - type: DomainSecurity
     url: security/metacritic-domain-security.yml
   - type: Website
